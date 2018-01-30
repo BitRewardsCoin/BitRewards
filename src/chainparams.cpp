@@ -48,42 +48,42 @@ public:
         // The message start string is designed to be unlikely to occur in normal data.
         // The characters are rarely used upper ASCII, not valid as UTF-8, and produce
         // a large 4-byte int at any alignment.
-        pchMessageStart[0] = 0x5a;
-        pchMessageStart[1] = 0xc3;
-        pchMessageStart[2] = 0x82;
-        pchMessageStart[3] = 0xd3;
-        vAlertPubKey = ParseHex("04a9a2894ad5eb9fd13c016ed9a2f222989769417eb053cd9f161528241bcf3bd55023679be17f0bd3a16e6fbebbbd551be1a4bd2d10cdb679228c91e26e26900e");
-        nDefaultPort = 13764;
-        nRPCPort = 13763;
+        pchMessageStart[0] = 0xa7;
+        pchMessageStart[1] = 0x3f;
+        pchMessageStart[2] = 0x23;
+        pchMessageStart[3] = 0xc1;
+        vAlertPubKey = ParseHex("04b053cd9f161528241bcf3bd55023679be17f0ba9a2894ad5eb9fd13c016ed9a2f222989769417ed3a16e6fbebbbd551be1a4bd2d10cdb679228c91e26e26900e");
+        nDefaultPort = 16752;
+        nRPCPort = 16751;
         bnProofOfWorkLimit = CBigNum(~uint256(0) >> 16);
 		
-        const char* pszTimestamp = "http://www.bbc.co.uk/news/business-42769096"; // Amazon opens a supermarket with no checkouts 
+        const char* pszTimestamp = "http://www.bbc.co.uk/news/technology-42853072"; // Fitness app Strava lights up staff at military bases
         std::vector<CTxIn> vin;
         vin.resize(1);
-        vin[0].scriptSig = CScript() << 4867195 << CBigNum(42) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
+        vin[0].scriptSig = CScript() << 4867295 << CBigNum(42) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
         std::vector<CTxOut> vout;
         vout.resize(1);
         vout[0].SetEmpty();
-        CTransaction txNew(1, 1516632780, vin, vout, 0);
+        CTransaction txNew(1, 1517246580, vin, vout, 0);
         genesis.vtx.push_back(txNew);
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime    = 1516632780;
+        genesis.nTime    = 1517246580;
         genesis.nBits    = 0x1f00ffff; 
-        genesis.nNonce   = 537842;
+        genesis.nNonce   = 527869;
 
         hashGenesisBlock = genesis.GetHash();
 
-        assert(hashGenesisBlock == uint256("0x2366da1b27172384a74c15cdbde69cb473bdf0d484e5bd07965054bca3820f24"));
-        assert(genesis.hashMerkleRoot == uint256("0x57c48f002f032fbbe4cc40ef10ee8e02e9c2682061469ba8fde5351da7ebd88c"));
+        assert(hashGenesisBlock == uint256("0xfc5b7a0846038dc7445e981f35de039967c9e660aa809f05b69fbdbaaf51e674"));
+        assert(genesis.hashMerkleRoot == uint256("0xecf574b836a7da7dec7e5932d83dc607fbd87a0c655782927ab9c788fe9d3bbf"));
 
         
-        base58Prefixes[PUBKEY_ADDRESS] = list_of(28);
-        base58Prefixes[SCRIPT_ADDRESS] = list_of(85);
-        base58Prefixes[SECRET_KEY] =     list_of(90);
-        base58Prefixes[EXT_PUBLIC_KEY] = list_of(0x04)(0x66)(0xC5)(0x7E);
-        base58Prefixes[EXT_SECRET_KEY] = list_of(0x04)(0x66)(0xB2)(0x1F);
+        base58Prefixes[PUBKEY_ADDRESS] = list_of(25);
+        base58Prefixes[SCRIPT_ADDRESS] = list_of(84);
+        base58Prefixes[SECRET_KEY] =     list_of(92);
+        base58Prefixes[EXT_PUBLIC_KEY] = list_of(0x04)(0x44)(0xF7)(0x3D);
+        base58Prefixes[EXT_SECRET_KEY] = list_of(0x04)(0x44)(0xA2)(0x4B);
 
         convertSeed6(vFixedSeeds, pnSeed6_main, ARRAYLEN(pnSeed6_main));
 
@@ -113,30 +113,30 @@ public:
         // The message start string is designed to be unlikely to occur in normal data.
         // The characters are rarely used upper ASCII, not valid as UTF-8, and produce
         // a large 4-byte int at any alignment.
-        pchMessageStart[0] = 0xcd;
-        pchMessageStart[1] = 0xf2;
-        pchMessageStart[2] = 0xc0;
-        pchMessageStart[3] = 0xef;
+        pchMessageStart[0] = 0x3a;
+        pchMessageStart[1] = 0x7f;
+        pchMessageStart[2] = 0x9e;
+        pchMessageStart[3] = 0xfc;
         bnProofOfWorkLimit = CBigNum(~uint256(0) >> 16);
-        vAlertPubKey = ParseHex("04a9a2894ad5eb9fd13c016ed9a2f222989769417eb053cd9f161528241bcf3bd55023679be17f0bd3a16e6fbebbbd551be1a4bd2d10cdb679228c91e26e26900e");
-        nDefaultPort = 23764;
-        nRPCPort = 23763;
+        vAlertPubKey = ParseHex("04b053cd9f161528241bcf3bd55023679be17f0ba9a2894ad5eb9fd13c016ed9a2f222989769417ed3a16e6fbebbbd551be1a4bd2d10cdb679228c91e26e26900e");
+        nDefaultPort = 26752;
+        nRPCPort = 26751;
         strDataDir = "testnet";
 
         // Modify the testnet genesis block so the timestamp is valid for a later start.
-        genesis.nBits  = 510219271; 
-        genesis.nNonce = 97643;
+        genesis.nBits  = 51219271; 
+        genesis.nNonce = 91643;
 
         //assert(hashGenesisBlock == uint256(""));
 
         vFixedSeeds.clear();
         vSeeds.clear();
 
-        base58Prefixes[PUBKEY_ADDRESS] = list_of(48);
-        base58Prefixes[SCRIPT_ADDRESS] = list_of(105);
-        base58Prefixes[SECRET_KEY]     = list_of(72);
-        base58Prefixes[EXT_PUBLIC_KEY] = list_of(0x05)(0x77)(0xE6)(0xA9);
-        base58Prefixes[EXT_SECRET_KEY] = list_of(0x05)(0x77)(0x7A)(0xF2);
+        base58Prefixes[PUBKEY_ADDRESS] = list_of(33);
+        base58Prefixes[SCRIPT_ADDRESS] = list_of(97);
+        base58Prefixes[SECRET_KEY]     = list_of(99);
+        base58Prefixes[EXT_PUBLIC_KEY] = list_of(0x05)(0x88)(0x6C)(0x9E);
+        base58Prefixes[EXT_SECRET_KEY] = list_of(0x05)(0x88)(0xA1)(0x2F);
 
         convertSeed6(vFixedSeeds, pnSeed6_test, ARRAYLEN(pnSeed6_test));
 

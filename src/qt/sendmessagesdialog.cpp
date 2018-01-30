@@ -34,7 +34,7 @@ SendMessagesDialog::SendMessagesDialog(Mode mode, Type type, QWidget *parent) :
 #if QT_VERSION >= 0x040700
      /* Do not move this to the XML file, Qt before 4.7 will choke on it */
     if(mode == SendMessagesDialog::Encrypted)
-        ui->addressFrom->setPlaceholderText(tr("Enter a BitRewards address (e.g. 63RvK8u25iWqFZ3EcfomjbYLknSHCdJGyv)"));
+        ui->addressFrom->setPlaceholderText(tr("Enter a BitRewards address (e.g. BTSJ1nSq33h99kJj6XGvvoXn37ry84pVX1)"));
  #endif
     addEntry();
 

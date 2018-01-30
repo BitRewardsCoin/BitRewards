@@ -1714,7 +1714,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <location line="+86"/>
         <location line="+86"/>
         <location line="+32"/>
-        <source>0.00 BTR</source>
+        <source>0.00 XBR</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1784,7 +1784,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+16"/>
-        <source>123.456 BTR</source>
+        <source>123.456 XBR</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2741,8 +2741,8 @@ for example: alertnotify=echo %%s | mail -s &quot;BitRewards Alert&quot; admin@f
     </message>
     <message>
         <location line="+6"/>
-        <source>Listen for connections on &lt;port&gt; (default: 13764 or testnet: 23764)</source>
-        <translation>Horche für verbindungen auf &lt;Port&gt; (Standard: 13764 oder Testnetz: 23764)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 16752 or testnet: 26752)</source>
+        <translation>Horche für verbindungen auf &lt;Port&gt; (Standard: 16752 oder Testnetz: 26752)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2791,8 +2791,8 @@ for example: alertnotify=echo %%s | mail -s &quot;BitRewards Alert&quot; admin@f
     </message>
     <message>
         <location line="+65"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 13763 or testnet: 23763)</source>
-        <translation>Horche für eingehende JSON-RPC Verbindungen auf &lt;Port&gt;(Standard: 13763 or Testnetz: 23763)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 16751 or testnet: 26751)</source>
+        <translation>Horche für eingehende JSON-RPC Verbindungen auf &lt;Port&gt;(Standard: 16751 or Testnetz: 26751)</translation>
     </message>
     <message>
         <location line="-17"/>

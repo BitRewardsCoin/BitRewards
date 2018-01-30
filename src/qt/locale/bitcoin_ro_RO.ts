@@ -1731,8 +1731,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
         <location line="+86"/>
         <location line="+86"/>
         <location line="+32"/>
-        <source>0.00 BTR</source>
-        <translation>123.456 BTR {0.00 ?}</translation>
+        <source>0.00 XBR</source>
+        <translation>123.456 XBR {0.00 ?}</translation>
     </message>
     <message>
         <location line="-191"/>
@@ -1801,8 +1801,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+16"/>
-        <source>123.456 BTR</source>
-        <translation>123.456 BTR</translation>
+        <source>123.456 XBR</source>
+        <translation>123.456 XBR</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -2758,8 +2758,8 @@ for example: alertnotify=echo %%s | mail -s &quot;BitRewards Alert&quot; admin@f
     </message>
     <message>
         <location line="+6"/>
-        <source>Listen for connections on &lt;port&gt; (default: 13764 or testnet: 23764)</source>
-        <translation>Ascultă pentru conectări pe &lt;port&gt; (implicit:  13764 sau testnet: 23764) </translation>
+        <source>Listen for connections on &lt;port&gt; (default: 16752 or testnet: 26752)</source>
+        <translation>Ascultă pentru conectări pe &lt;port&gt; (implicit:  16752 sau testnet: 26752) </translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2808,8 +2808,8 @@ for example: alertnotify=echo %%s | mail -s &quot;BitRewards Alert&quot; admin@f
     </message>
     <message>
         <location line="+65"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 13763 or testnet: 23763)</source>
-        <translation>Ascultă pentru conexiuni JSON-RPC pe &lt;port&gt; (implicit:13763 sau testnet: 23763)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 16751 or testnet: 26751)</source>
+        <translation>Ascultă pentru conexiuni JSON-RPC pe &lt;port&gt; (implicit:16751 sau testnet: 26751)</translation>
     </message>
     <message>
         <location line="-17"/>

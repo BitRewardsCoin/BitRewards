@@ -12,7 +12,7 @@
 #include "uint256.h"
 
 
-static const int nCheckpointSpan = 5246;
+static const int nCheckpointSpan = 7635;
 
 namespace Checkpoints
 {
@@ -27,11 +27,13 @@ namespace Checkpoints
     //
     static MapCheckpoints mapCheckpoints =
         boost::assign::map_list_of
-        ( 0, uint256("0x2366da1b27172384a74c15cdbde69cb473bdf0d484e5bd07965054bca3820f24"))
-        ( 127, uint256("0x605856c5de1a5af66c4354aa505be380f9df66225d497c449458ace843b452ec"))
-        ( 383, uint256("0x45086a005f4d3242b634caa6124405598e00707c0544710149d8777fea24d9ad"))
-        ( 562, uint256("0x13871eb2aa971ed9a084fd3c996a16900e4d05730332d7247931da38ffd3008d"));
-
+        ( 0, uint256("0x0xfc5b7a0846038dc7445e981f35de039967c9e660aa809f05b69fbdbaaf51e674"))
+        ( 22, uint256("0xdc66492747e65657e978cbf8be4fd9b0694467111a19e73cd3d40515b13dea52"))
+        ( 87, uint256("0x58e0778e307b014034ac821db4a3d6d921542d98b576adcfe8e75d580ec02510"))
+        ( 138, uint256("0xd8c9e76160dd6525224ce772dfbc5eaa3c6ca9a2991943cb007e43e3506086d3"))
+        ( 200, uint256("0xf01f4671cf60afa572c3978e774d62e7cbe5af0bc88b275042887d41e2415e61"))
+        ( 380, uint256("0xf33b110052eb13c4084055eafcae307b5344d543e159d70704dc5ab44e499498"))
+        ( 525, uint256("0x93ae9655aeef641223d1191e93e224677ff1967e56e301cc12e1ca312935e7e8"));
 
     // TestNet has no checkpoints
     static MapCheckpoints mapCheckpointsTestnet;
@@ -306,7 +308,7 @@ namespace Checkpoints
 }
 
 // ppcoin: sync-checkpoint master key
-const std::string CSyncCheckpoint::strMasterPubKey = "04cc716743db35b81ffd35fc30420a3c225b4d50b4bc023aae9c4366f70616b5581ac752d2bfa8312b0b8cd29913df33863ae218c88ed4dd26151026b5049868ab";
+const std::string CSyncCheckpoint::strMasterPubKey = "04cd29913df33863ae26151026b5049868abcc716218c88ed4dd743db35b81ffd35fc30420a3c225b4d50b4bc023aae9c4366f70616b5581ac752d2bfa8312b0b8";
 
 std::string CSyncCheckpoint::strMasterPrivKey = "";
 

@@ -225,7 +225,7 @@ class CDarksendSession
 class CDarkSendPool
 {
 public:
-    static const int MIN_PEER_PROTO_VERSION = 60020;
+    static const int MIN_PEER_PROTO_VERSION = 70016;
 
     // clients entries
     std::vector<CDarkSendEntry> myEntries;
@@ -292,7 +292,7 @@ public:
 
     void InitCollateralAddress(){
         std::string strAddress = "";
-            strAddress = "CJCKZi6oaPuSpiUbaJPV4rm22CukVjZe2K";
+            strAddress = "BTSJ1nSq33h99kJj6XGvvoXn37ry84pVX1";
         SetCollateralAddress(strAddress);
     }
 

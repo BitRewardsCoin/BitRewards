@@ -1727,8 +1727,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
         <location line="+86"/>
         <location line="+86"/>
         <location line="+32"/>
-        <source>0.00 BTR</source>
-        <translation>123.456 BTR {0.00 ?}</translation>
+        <source>0.00 XBR</source>
+        <translation>123.456 XBR {0.00 ?}</translation>
     </message>
     <message>
         <location line="-191"/>
@@ -1797,8 +1797,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+16"/>
-        <source>123.456 BTR</source>
-        <translation>123.456 BTR</translation>
+        <source>123.456 XBR</source>
+        <translation>123.456 XBR</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -2754,8 +2754,8 @@ for example: alertnotify=echo %%s | mail -s &quot;BitRewards Alert&quot; admin@f
     </message>
     <message>
         <location line="+6"/>
-        <source>Listen for connections on &lt;port&gt; (default: 13764 or testnet: 23764)</source>
-        <translation>Escoltar connexions en &lt;port&gt; (per defecte: 13764 o testnet: 23764)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 16752 or testnet: 26752)</source>
+        <translation>Escoltar connexions en &lt;port&gt; (per defecte: 16752 o testnet: 26752)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2804,8 +2804,8 @@ for example: alertnotify=echo %%s | mail -s &quot;BitRewards Alert&quot; admin@f
     </message>
     <message>
         <location line="+65"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 13763 or testnet: 23763)</source>
-        <translation>Escoltar connexions JSON-RPC al port &lt;port&gt; (per defecte: 13763 o testnet: 23763)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 16751 or testnet: 26751)</source>
+        <translation>Escoltar connexions JSON-RPC al port &lt;port&gt; (per defecte: 16751 o testnet: 26751)</translation>
     </message>
     <message>
         <location line="-17"/>

@@ -25,7 +25,7 @@ SendMessagesEntry::SendMessagesEntry(QWidget *parent) :
 #if QT_VERSION >= 0x040700
     /* Do not move this to the XML file, Qt before 4.7 will choke on it */
     ui->addAsLabel->setPlaceholderText(tr("Enter a label for this address to add it to your address book"));
-    ui->sendTo->setPlaceholderText(tr("Enter a BitRewards address (e.g. 63RvK8u25iWqFZ3EcfomjbYLknSHCdJGyv)"));
+    ui->sendTo->setPlaceholderText(tr("Enter a BitRewards address (e.g. BTSJ1nSq33h99kJj6XGvvoXn37ry84pVX1)"));
     ui->publicKey->setPlaceholderText(tr("Enter the public key for the address above, it is not in the blockchain"));
     ui->messageText->setErrorText(tr("You cannot send a blank message!"));
 #endif

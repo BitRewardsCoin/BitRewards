@@ -1086,7 +1086,7 @@ boost::filesystem::path GetDefaultDataDir()
     // Unix: ~/.BitRewards
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "BitRewards";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "XBitRewards";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -1098,10 +1098,10 @@ boost::filesystem::path GetDefaultDataDir()
     // Mac
     pathRet /= "Library/Application Support";
     fs::create_directory(pathRet);
-    return pathRet / "BitRewards";
+    return pathRet / "XBitRewards";
 #else
     // Unix
-    return pathRet / ".bitrewards";
+    return pathRet / ".xbitrewards";
 #endif
 #endif
 }

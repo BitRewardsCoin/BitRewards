@@ -75,7 +75,7 @@
     </rect>
    </property>
    <property name="text">
-    <string>Use 2 separate masternodes to mix funds up to 1000 BTR</string>
+    <string>Use 2 separate masternodes to mix funds up to 1000 XBR</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_3">
@@ -88,7 +88,7 @@
     </rect>
    </property>
    <property name="text">
-    <string>Use 8 separate masternodes to mix funds up to 1000 BTR</string>
+    <string>Use 8 separate masternodes to mix funds up to 1000 XBR</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_4">
@@ -114,7 +114,7 @@
     </rect>
    </property>
    <property name="text">
-    <string>This option is the quickest and will cost about ~0.025 BTR to anonymize 1000 BTR</string>
+    <string>This option is the quickest and will cost about ~0.025 XBR to anonymize 1000 XBR</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_7">
@@ -127,7 +127,7 @@
     </rect>
    </property>
    <property name="text">
-    <string>This option is moderately fast and will cost about 0.05 BTR to anonymize 1000 BTR</string>
+    <string>This option is moderately fast and will cost about 0.05 XBR to anonymize 1000 XBR</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_8">
@@ -153,7 +153,7 @@
     </rect>
    </property>
    <property name="text">
-    <string>0.1 BTR per 1000 BTR you anonymize.</string>
+    <string>0.1 XBR per 1000 XBR you anonymize.</string>
    </property>
   </widget>
   <widget class="Line" name="line">

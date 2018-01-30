@@ -19,7 +19,7 @@
 class CValidationState;
 
 #define START_MASTERNODE_PAYMENTS_TESTNET 1517313600 // Tuesday, January 30, 2018 12:00:00 PM
-#define START_MASTERNODE_PAYMENTS 1516795200 //  Wednesday, January 24, 2018 12:00:00 PM
+#define START_MASTERNODE_PAYMENTS 1517244600 // Monday, January 29, 2018 4:50:00 PM
 
 static const int64_t DARKSEND_COLLATERAL = (500000*COIN);
 static const int64_t DARKSEND_FEE = (0.01*COIN);
@@ -83,11 +83,10 @@ static const int64_t MIN_TX_FEE = 10000; // 0.0001 per kb
 static const int64_t MIN_RELAY_TX_FEE = MIN_TX_FEE;
 /** No amount larger than this (in satoshi) is valid */
 static const int64_t MAX_MONEY = 999999999 * COIN; //
-static const int64_t COIN_YEAR_REWARD = 10 * CENT; // 10%
-/** The maximum mint reward for PoS */
-static const int64_t MAX_MINT_PROOF_OF_STAKE = 0.1 * COIN;  // 10% annual interest
+static const int64_t COIN_YEAR_REWARD = 5 * CENT; // 5%
 /** This is the block target time */
-static const int64_t TARGET_SPACING = 1 * 70;
+static const int64_t TARGET_SPACING = 2 * 60;
+static const int64_t MN_STATIC_REWARD = 250 * COIN;
 inline bool MoneyRange(int64_t nValue) { return (nValue >= 0 && nValue <= MAX_MONEY); }
 /** Threshold for nLockTime: below this value it is interpreted as block number, otherwise as UNIX timestamp. */
 static const unsigned int LOCKTIME_THRESHOLD = 500000000; // Tue Nov  5 00:53:20 1985 UTC

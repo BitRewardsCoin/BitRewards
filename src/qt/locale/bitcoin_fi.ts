@@ -1736,8 +1736,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
         <location line="+86"/>
         <location line="+86"/>
         <location line="+32"/>
-        <source>0.00 BTR</source>
-        <translation>123.456 BTR {0.00 ?}</translation>
+        <source>0.00 XBR</source>
+        <translation>123.456 XBR {0.00 ?}</translation>
     </message>
     <message>
         <location line="-191"/>
@@ -1806,8 +1806,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+16"/>
-        <source>123.456 BTR</source>
-        <translation>123.456 BTR</translation>
+        <source>123.456 XBR</source>
+        <translation>123.456 XBR</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -2763,8 +2763,8 @@ for example: alertnotify=echo %%s | mail -s &quot;BitRewards Alert&quot; admin@f
     </message>
     <message>
         <location line="+6"/>
-        <source>Listen for connections on &lt;port&gt; (default: 13764 or testnet: 23764)</source>
-        <translation>Kuuntele yhteyksiä portissa &lt;port&gt; (oletus: 13764 tai testiverkko: 23764)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 16752 or testnet: 26752)</source>
+        <translation>Kuuntele yhteyksiä portissa &lt;port&gt; (oletus: 16752 tai testiverkko: 26752)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2813,8 +2813,8 @@ for example: alertnotify=echo %%s | mail -s &quot;BitRewards Alert&quot; admin@f
     </message>
     <message>
         <location line="+65"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 13763 or testnet: 23763)</source>
-        <translation>Kuuntele JSON-RPC-yhteyksiä portissa &lt;port&gt; (oletus: 13763 tai testiverkko: 23763)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 16751 or testnet: 26751)</source>
+        <translation>Kuuntele JSON-RPC-yhteyksiä portissa &lt;port&gt; (oletus: 16751 tai testiverkko: 26751)</translation>
     </message>
     <message>
         <location line="-17"/>

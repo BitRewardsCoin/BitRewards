@@ -1735,8 +1735,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
         <location line="+86"/>
         <location line="+86"/>
         <location line="+32"/>
-        <source>0.00 BTR</source>
-        <translation>123.456 BTR {0.00 ?}</translation>
+        <source>0.00 XBR</source>
+        <translation>123.456 XBR {0.00 ?}</translation>
     </message>
     <message>
         <location line="-191"/>
@@ -1805,8 +1805,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+16"/>
-        <source>123.456 BTR</source>
-        <translation>123.456 BTR</translation>
+        <source>123.456 XBR</source>
+        <translation>123.456 XBR</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -2772,8 +2772,8 @@ napríklad: alertnotify=echo %%s | mail -s &quot;BitRewards upozornenie&quot; ad
     </message>
     <message>
         <location line="+6"/>
-        <source>Listen for connections on &lt;port&gt; (default: 13764 or testnet: 23764)</source>
-        <translation>Počúvať pripojenia na &lt;port&gt; (predvolené: 13764 alebo testovacia sieť: 23764)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 16752 or testnet: 26752)</source>
+        <translation>Počúvať pripojenia na &lt;port&gt; (predvolené: 16752 alebo testovacia sieť: 26752)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2822,8 +2822,8 @@ napríklad: alertnotify=echo %%s | mail -s &quot;BitRewards upozornenie&quot; ad
     </message>
     <message>
         <location line="+65"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 13763 or testnet: 23763)</source>
-        <translation>Počúvajte pre JSON-RPC spojenie na &lt;port&gt; (predvolené: 13763 alebo testovaciasieť: 23763)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 16751 or testnet: 26751)</source>
+        <translation>Počúvajte pre JSON-RPC spojenie na &lt;port&gt; (predvolené: 16751 alebo testovaciasieť: 26751)</translation>
     </message>
     <message>
         <location line="-17"/>

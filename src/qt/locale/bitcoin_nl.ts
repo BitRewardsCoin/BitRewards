@@ -1771,8 +1771,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
         <location line="+86"/>
         <location line="+86"/>
         <location line="+32"/>
-        <source>0.00 BTR</source>
-        <translation>123.456 BTR</translation>
+        <source>0.00 XBR</source>
+        <translation>123.456 XBR</translation>
     </message>
     <message>
         <location line="-191"/>
@@ -1841,8 +1841,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+16"/>
-        <source>123.456 BTR</source>
-        <translation>123.456 BTR</translation>
+        <source>123.456 XBR</source>
+        <translation>123.456 XBR</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -2802,8 +2802,8 @@ for example: alertnotify=echo %%s | mail -s &quot;BitRewards Alert&quot; admin@f
     </message>
     <message>
         <location line="+6"/>
-        <source>Listen for connections on &lt;port&gt; (default: 13764 or testnet: 23764)</source>
-        <translation>Luister voor verbindingen op &lt;poort&gt; (standaard: 13764 of testnet: 23764)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 16752 or testnet: 26752)</source>
+        <translation>Luister voor verbindingen op &lt;poort&gt; (standaard: 16752 of testnet: 26752)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2852,8 +2852,8 @@ for example: alertnotify=echo %%s | mail -s &quot;BitRewards Alert&quot; admin@f
     </message>
     <message>
         <location line="+64"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 13763 or testnet: 23763)</source>
-        <translation>Wacht op JSON-RPC-connecties op &lt;poort&gt; (standaard: 13763 of testnet: 23763) </translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 16751 or testnet: 26751)</source>
+        <translation>Wacht op JSON-RPC-connecties op &lt;poort&gt; (standaard: 16751 of testnet: 26751) </translation>
     </message>
     <message>
         <location line="-16"/>
