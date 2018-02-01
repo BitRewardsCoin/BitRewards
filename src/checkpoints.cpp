@@ -27,13 +27,10 @@ namespace Checkpoints
     //
     static MapCheckpoints mapCheckpoints =
         boost::assign::map_list_of
-        ( 0, uint256("0x0xfc5b7a0846038dc7445e981f35de039967c9e660aa809f05b69fbdbaaf51e674"))
-        ( 22, uint256("0xdc66492747e65657e978cbf8be4fd9b0694467111a19e73cd3d40515b13dea52"))
-        ( 87, uint256("0x58e0778e307b014034ac821db4a3d6d921542d98b576adcfe8e75d580ec02510"))
-        ( 138, uint256("0xd8c9e76160dd6525224ce772dfbc5eaa3c6ca9a2991943cb007e43e3506086d3"))
-        ( 200, uint256("0xf01f4671cf60afa572c3978e774d62e7cbe5af0bc88b275042887d41e2415e61"))
-        ( 380, uint256("0xf33b110052eb13c4084055eafcae307b5344d543e159d70704dc5ab44e499498"))
-        ( 525, uint256("0x93ae9655aeef641223d1191e93e224677ff1967e56e301cc12e1ca312935e7e8"));
+        ( 0, uint256("0xc3a34f0f9be91aa5327f8b1d2af52cc68d3192581bdb0fd5502fa2b9bd5a8589"))
+        ( 53, uint256("0x827dccd95b3ff97d2dc92968dbfeb021342e312029421ac79803612716f8ef11"))
+        ( 125, uint256("0x6fa29ada29cddf9861d9ba862692281e38c3efe50b6862e0ea237a2d606068c3"))
+        ( 200, uint256("0xbb2a48c5e6bab39cbce718a61ce55df9dfca1f4de18671c4b1d08d98e764fd86"));
 
     // TestNet has no checkpoints
     static MapCheckpoints mapCheckpointsTestnet;
@@ -308,7 +305,7 @@ namespace Checkpoints
 }
 
 // ppcoin: sync-checkpoint master key
-const std::string CSyncCheckpoint::strMasterPubKey = "04cd29913df33863ae26151026b5049868abcc716218c88ed4dd743db35b81ffd35fc30420a3c225b4d50b4bc023aae9c4366f70616b5581ac752d2bfa8312b0b8";
+const std::string CSyncCheckpoint::strMasterPubKey = "04e26151026b5cd29913df33863a049868abcc716218c88ed4dd743db35b81ffd35fc30420a3c225b4d50b4bc023aae9c4366f70616b5581ac752d2bfa8312b0b8";
 
 std::string CSyncCheckpoint::strMasterPrivKey = "";
 

@@ -52,31 +52,31 @@ public:
         pchMessageStart[1] = 0x3f;
         pchMessageStart[2] = 0x23;
         pchMessageStart[3] = 0xc1;
-        vAlertPubKey = ParseHex("04b053cd9f161528241bcf3bd55023679be17f0ba9a2894ad5eb9fd13c016ed9a2f222989769417ed3a16e6fbebbbd551be1a4bd2d10cdb679228c91e26e26900e");
+        vAlertPubKey = ParseHex("04f3bd55023679be17f0bab053cd9f161528241bc9a2894ad5eb9fd13c016ed9a2f222989769417ed3a16e6fbebbbd551be1a4bd2d10cdb679228c91e26e26900e");
         nDefaultPort = 16752;
         nRPCPort = 16751;
         bnProofOfWorkLimit = CBigNum(~uint256(0) >> 16);
 		
-        const char* pszTimestamp = "http://www.bbc.co.uk/news/technology-42853072"; // Fitness app Strava lights up staff at military bases
+        const char* pszTimestamp = "http://www.bbc.co.uk/news/world-europe-42873848";  // Putin says US sanctions list targets all Russians
         std::vector<CTxIn> vin;
         vin.resize(1);
         vin[0].scriptSig = CScript() << 4867295 << CBigNum(42) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
         std::vector<CTxOut> vout;
         vout.resize(1);
         vout[0].SetEmpty();
-        CTransaction txNew(1, 1517246580, vin, vout, 0);
+        CTransaction txNew(1, 1517339400, vin, vout, 0);
         genesis.vtx.push_back(txNew);
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime    = 1517246580;
+        genesis.nTime    = 1517339400;
         genesis.nBits    = 0x1f00ffff; 
-        genesis.nNonce   = 527869;
+        genesis.nNonce   = 547319;
 
         hashGenesisBlock = genesis.GetHash();
 
-        assert(hashGenesisBlock == uint256("0xfc5b7a0846038dc7445e981f35de039967c9e660aa809f05b69fbdbaaf51e674"));
-        assert(genesis.hashMerkleRoot == uint256("0xecf574b836a7da7dec7e5932d83dc607fbd87a0c655782927ab9c788fe9d3bbf"));
+        assert(hashGenesisBlock == uint256("0xc3a34f0f9be91aa5327f8b1d2af52cc68d3192581bdb0fd5502fa2b9bd5a8589"));
+        assert(genesis.hashMerkleRoot == uint256("0xafdd3fec8de764bdc7ec0d15027d5c1d968757febff56753f1bbf2a92598307c"));
 
         
         base58Prefixes[PUBKEY_ADDRESS] = list_of(25);
@@ -118,7 +118,7 @@ public:
         pchMessageStart[2] = 0x9e;
         pchMessageStart[3] = 0xfc;
         bnProofOfWorkLimit = CBigNum(~uint256(0) >> 16);
-        vAlertPubKey = ParseHex("04b053cd9f161528241bcf3bd55023679be17f0ba9a2894ad5eb9fd13c016ed9a2f222989769417ed3a16e6fbebbbd551be1a4bd2d10cdb679228c91e26e26900e");
+        vAlertPubKey = ParseHex("04f3bd55023679be17f0bab053cd9f161528241bc9a2894ad5eb9fd13c016ed9a2f222989769417ed3a16e6fbebbbd551be1a4bd2d10cdb679228c91e26e26900e");
         nDefaultPort = 26752;
         nRPCPort = 26751;
         strDataDir = "testnet";

@@ -34,6 +34,7 @@ linux {
 # workaround for boost 1.58
 DEFINES += BOOST_VARIANT_USE_RELAXED_GET_BY_DEFAULT
 
+
 OBJECTS_DIR = build
 MOC_DIR = build
 UI_DIR = build

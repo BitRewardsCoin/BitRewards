@@ -83,10 +83,9 @@ static const int64_t MIN_TX_FEE = 10000; // 0.0001 per kb
 static const int64_t MIN_RELAY_TX_FEE = MIN_TX_FEE;
 /** No amount larger than this (in satoshi) is valid */
 static const int64_t MAX_MONEY = 999999999 * COIN; //
-static const int64_t COIN_YEAR_REWARD = 5 * CENT; // 5%
+static const int64_t COIN_YEAR_REWARD = 10 * CENT; // 10% Per Year
 /** This is the block target time */
-static const int64_t TARGET_SPACING = 2 * 60;
-static const int64_t MN_STATIC_REWARD = 250 * COIN;
+static const int64_t TARGET_SPACING = 1 * 90;
 inline bool MoneyRange(int64_t nValue) { return (nValue >= 0 && nValue <= MAX_MONEY); }
 /** Threshold for nLockTime: below this value it is interpreted as block number, otherwise as UNIX timestamp. */
 static const unsigned int LOCKTIME_THRESHOLD = 500000000; // Tue Nov  5 00:53:20 1985 UTC
